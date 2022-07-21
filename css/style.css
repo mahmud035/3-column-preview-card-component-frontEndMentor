@@ -87,10 +87,8 @@ body {
   padding: 3rem 0;
 }
 
-.card-sedans,
-.card-suvs,
-.card-luxury {
-  padding: 2.5rem;
+.card {
+  padding: 2.5rem 2.5rem 3.7rem;
 }
 
 .card-sedans h1,
@@ -112,7 +110,8 @@ body {
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
+  /*? Why this cause hover effect hight problem? */
   background-color: var(--very-light-gray);
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
